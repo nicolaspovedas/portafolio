@@ -1,0 +1,155 @@
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+header {
+	color: white;
+	font-size: 20px;
+	background-color: rgba(48,48,48,0.5);
+	padding: 20px;
+	height: 100px;
+	margin-top: 0%;
+	width: 100%;
+	position: fixed;
+}
+
+header a {
+	padding: 20px;
+	display: inline-block;
+	float: left;
+}
+
+header img {
+	width: 70px;
+	border-radius: 10%;
+	text-align: right;
+	display: inline-block;
+	float: right;
+}
+
+a:visited {
+color: white;
+}
+
+.home {
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../images/castello.jpg") no-repeat center top 25%;
+	background-position: top;
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+	height: 968px;
+	position: absolute;
+	margin-top: 0;
+}
+
+.home h1  {
+	margin-top: 100px;
+	font-size: 100px;
+	color: white;
+	text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+
+}
+
+.home h2 {
+	margin-top: 500px;
+	font-size: 40px;
+	color: white;
+	font-weight: lighter;
+	font-style: italic;
+	text-shadow: 3px 0 black, 0 3px black, 3px 0 black, 0 3px black;
+}
+
+#acerca {
+	background-color: #e0e0e0;
+	font-size: 20px;
+	line-height: 25px;
+	padding: 30PX;
+	text-align: justify;
+}
+
+#acerca h2 {
+	text-align: center;
+	color: #176768;
+	font-style: italic;
+}
+
+#acerca h3 {
+	text-align: center;
+} 
+
+#acerca #linea {
+	text-align: center;
+	background-color: white;
+}
+
+#acerca div img {
+	width: 50%;
+	padding: 50px;
+}
+
+#acerca iframe {
+	margin: auto auto;
+}
+
+
+#trabajos h1 {
+	font-size: 40px;
+	text-align: center;
+}
+
+#trabajos .caja {
+	color: #176768;
+	width: 100%;
+	text-align: left;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#trabajos img {
+	width: 100%;
+	text-align: center;
+}
+
+#contacto {
+	background-color: whitesmoke;
+}
+
+#contacto h1 {
+	text-align: center;
+	font-size: 40px;
+	color: purple;
+	padding: 30px;
+}
+
+#contacto p {
+	font-size: 20px;
+}
+
+#contacto #whatsapp {
+	width: 25%;
+}
+
+#contacto #gmail {
+	width: 8%;
+}
+
+#contacto #facebook {
+	width: 10%;
+}
+
+#contacto .iconos {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
